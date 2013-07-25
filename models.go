@@ -2,7 +2,7 @@ package racka
 
 import (
 	"crypto/sha1"
-    "encoding/base64"
+	"encoding/base64"
 	"io"
 	"time"
 )
