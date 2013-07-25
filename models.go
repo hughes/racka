@@ -14,8 +14,10 @@ type User struct {
 }
 
 type Day struct {
-	date  time.Time
-	hours string
+	pk      int
+	user_pk int
+	date    time.Time
+	hours   string
 }
 
 func SetPassword(u *User, p string) {
